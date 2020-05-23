@@ -1,0 +1,55 @@
+ /* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+body {background:#1a1a1a url(./background.jpg) top center no-repeat; font-family:Arial,Helvetica,sans-serif; color:#ddd; line-height:1.6em;}
+
+h1{font-size:3.6em;font-weight:400;letter-spacing:-1px;}
+h2{font-size:1.8em;font-weight:400;letter-spacing:-1px;}
+#wrap{width:720px; padding:20px;margin:0 auto;}
+#sidebar {margin:10px 0 30px 0;width:300px;float:left;}
+#content{margin:30px 0 30px 340px;width:360px;padding-top:116px;}
+#content ul{margin:10px 0;padding:0;width:220px;height: 0px}
+#content ul li{margin-top: 40px;padding:0 0 0 10px;border-bottom: 1px solid #333;display:block;line-height:2em;list-style-type:none;}
+#sidebar ul{margin:10px 0;padding:0;width:570px;}
+#sidebar ul li{margin:0;padding:0 0 0 10px;border: 1px solid #333;clear:both;display:block;line-height:2em;list-style-type:none;}
+#sidebar ul li span{color:white;}
+#sidebar ul li span{display:block;float:left;font-weight:700;text-decoration:none;width:120px; border:0;}
+#contactform input {width:120px;background-color:#222;color:#eee;border:1px solid #555;padding:5px;}
+button {background-color:#222;color:#eee;border:1px solid #555;padding:5px;margin-left: 64px;width: 132px}
+#start {background-color:#222;color:#eee;border:1px solid #555;padding:5px;margin-left: 52px;margin-top: 30px;width: 132px}
+#contactform {margin:40px -20px;padding:8px;border: 1px solid #333;width: 230px}
